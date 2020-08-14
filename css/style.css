@@ -1,0 +1,442 @@
+body {
+	background-color: #FEFEFE;
+	font-family: Arial, helvetica, sans-serif;
+	font-size: .9em;
+}
+
+header {
+	padding-top: 10px;
+}
+
+.navegacao ul {
+	padding-left: 38%;
+}
+
+.navegacao nav li {
+	display: inline;
+	margin: 0 0 0 6.4%;
+}
+
+.navegacao nav a {
+	text-decoration: none;
+	font-size: 1.05em;
+	color: black;
+}
+
+.navegacao nav a:hover {
+	color: #bb7cfe;
+	border-bottom: .07em solid #bb7cfe;
+}
+
+.login-button {
+	background-color: white;
+  color: #bb7cfe;
+  font-size: 1.1em;
+  border: 2px solid #bb7cfe;
+  border-radius: 20px;
+  height: 40px;
+  width: 90px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+	background-color: #bb7cfe;
+	color: white;
+}
+
+.caixa {
+	position: relative;
+	width: 90%;
+}
+
+.logo {
+	width: 170px;
+	height: 190px;
+	margin: 0px 0 60px 80px;
+}
+
+.titulo-principal {
+	color: #40160C;
+	font-weight: bold;
+	position: absolute;
+	top: 80px;
+	left: 320px;
+	padding: 14px;
+	padding: 0 0 80px 0;
+
+}
+
+h1 {
+  font-size: 55px;
+  color: #40160C;	
+  text-shadow: 1px 1px 1px #40160C;
+
+}
+
+p {
+	font-size: 25px;
+  color: #40160C;	
+}
+
+.pesquisa {
+	position: absolute;
+	top: 25%;
+	left: 60%;
+	font-size: 1em;
+}
+
+.input-pesquisa  {
+	width: 250px;
+	height: 30px;
+	float: left;
+	font-size: 1em;
+}
+
+.pesquisa button {
+	width: 80px;
+	height: 36px;
+	font-size: 1em;
+	background-color: #bb7cfe;
+	color: white;
+  cursor: pointer;
+  border: 2px solid #bb7cfe;
+}
+
+.pesquisa button:hover {
+	background-color: #bb7cfe;
+	color: white;
+}
+
+article {
+	line-height: 1.9em;
+}
+
+.black_coffee {
+	width: 800px;
+	height: 500px;
+	margin: 40px 0 0 0;
+}
+
+.introducao {
+	text-align: center;
+	line-height: 2.3em;
+}
+
+.chuva-cafe{
+	width: 200px;
+	height: 200px;
+	float: left;
+	padding-left: 150px;
+}
+
+h2 {
+	font-size: 2.5em;
+  color: #40160C;	
+  font-weight: bold;
+  margin: 1.4em 0 .8em 0;
+  padding-right: 65px;
+}
+
+
+.texto {
+	padding-right: 270px;
+}
+
+.divisoria {
+	margin: 60px 0 40px 0;
+}
+
+.titulos {
+	font-size: 2.5em;
+  color: #40160C;	
+  text-align: center;
+  font-weight: bold;
+  margin: 1.4em 0 .8em 0;
+}
+
+.historia {
+	text-align: center;
+	line-height: 2.3em;
+}
+
+.historia > p {
+	margin: 0 0 20px 0; 
+	padding-right: 30px;
+}
+
+.titulo-historias {
+	margin: 35px 0 25px 0; 
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.hitoria-videos {
+	max-width: 100%;
+	/*height: 1600px;*/
+	/*padding-left: 450px;*/
+}
+
+.hitoria-videos li {
+	display: inline-block;
+	width: 450px;
+	/*Para ordernar os produtos pela parte de cima*/
+	/*vertical-align: top;*/
+	margin: 30px auto;
+	padding: 0 50px; 
+}
+
+.hitoria-videos iframe {
+	width: 400px;
+	height: 250px;
+}
+
+/*.homem-cafe {
+	width: 400px;
+	height: 500px;
+	float: left;
+	padding: 70px 0 0 70px;
+}*/
+
+.trajetoria-cafecasa li {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 10px 50px 50px 50px;
+}
+
+.trajetoria-cafecasa img {
+	width: 200px;
+	height: 150px;
+}
+
+.produtos {
+	text-align: center;
+	background: linear-gradient(#FEFEFE, #EBECEA);
+	padding: 0 0 40px 0;
+}
+
+.produtos img {
+	width: 130px;
+	height: 130px;
+	/*box-shadow: inset 0 0 30px darkred;*/
+
+}
+
+
+.produtos li {
+	display: inline-block;
+	margin: 0 50px 50px 50px;
+	width: 200px;
+	height: 240px;
+	
+}
+
+.produtos li:hover {
+	background-color: #EBECEA; 
+	border: 1.3px solid black;
+	border-radius: 10px;
+	box-shadow: inset 0 0 30px lightgray;
+}
+
+.produtos button{
+	display: block;
+	margin: 0 auto;
+	width: 80px;
+	height: 30px;
+	font-size: 1em;
+}
+
+.produtos button:hover {
+	background: #bb7cfe;
+	color: white;
+	transition: 300ms;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 2px;
+}
+
+.produtos p {
+	font-size: 1.8em;
+	margin: 15px 0 20px 0;
+}
+
+h5 {
+	font-weight: bold;
+	color: #40160C;
+	font-size: 25px;
+	padding-left: 25px;
+	margin: 0 0 40px 0; 
+}
+
+.user-review {
+	border-right: 2px solid black;
+	background-color: #EBECEA;
+	width: 49.5%;
+	padding: 0 0 30px 0;
+	float: left;
+	margin: 0 0 20px 0;
+	background: linear-gradient(#EBECEA, lightgray);
+}
+
+.user-review li {
+	padding: 20px 0 20px 20px;
+}
+
+.com-nome {
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+.comentario {
+	font-weight: bold;
+	font-size: .9em;
+}
+
+.user-review p {
+	font-size: 1.2em;
+}
+
+.user-review a {
+	padding-left: 40%;
+	font-size: 1.4em;
+	text-decoration: none;
+}
+
+.user-review a:hover {
+	text-decoration: underline;
+}
+
+.user-foto {
+	width: 70px;
+	height: 70px;
+	float: left;
+}
+
+
+.seu-comentario {
+	width: 49.5%;
+	margin: 0 0;
+	padding: 0 0 110px 51.5%;
+	height: 257.969px;
+	background: linear-gradient(#EBECEA, lightgray);
+}
+
+
+h6 {
+	font-weight: bold;
+	color: #40160C;
+	font-size: 25px;
+	/*padding-left: 100px;*/
+	margin: 0 0 40px 0;
+}
+
+.enviar-comentario textarea {
+	display: block;
+	/*height: 300px;
+	padding-bottom: 100px;*/
+}
+
+fieldset {
+	margin: 15px 0;
+}
+
+.enviar {
+	background-color: #bb7cfe;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 40%;
+	margin: 10px 0 15px 0;
+	padding: 10px 0px;
+}
+
+.enviar:hover {
+	transition: 300ms;
+	background-color: blue;
+}
+
+.com-avaliacao {
+	font-weight: bold;
+}
+
+legend {
+	display: inline;
+	margin: 0 0;
+}
+
+.select-input {
+	padding-left: 70px;
+}
+
+.rodape {
+	background: gray;
+	padding: 30px 0 30px 0;
+}
+
+.rodape-principal {
+	margin-left: 122px;
+}
+
+.rodape-principal li {
+	display: inline;
+	padding: 0 71px;
+}
+
+.rodape-principal a {
+	color: black;
+	text-decoration: none;
+	font-size: 1.08em;
+}
+
+.rodape-principal a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.rodape-lista img {
+	width: 105px;
+	height: 110px;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.rodape p {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px 0 0 40.6%;
+	color: black;
+}
+
+.logo-rede-sociais {
+	margin-left: 45%;
+}
+
+.logo-rede-sociais li {
+	display: inline-block;
+}
+
+.logo-rede-sociais img {
+	width: 20px;
+	height: 20px;
+	margin: 30px 5px 0 5px;
+}
+
+/*viewport autor palavras-chaves descrição*/
+
+
+
+#EBECEA
+#DDD4CB
+
+#D9D0C7
+#592A19
+#733B27
+#A68477
+#40160C
+
+
+#365902
+#1E400F
+#092601
