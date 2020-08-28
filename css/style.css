@@ -5,11 +5,12 @@ body {
 }
 
 header {
-	padding-top: 10px;
+	padding-top: .5em;
+	width: 100%;
 }
 
 .navegacao ul {
-	padding-left: 38%;
+	padding-left: 38%; 
 }
 
 .navegacao nav li {
@@ -24,25 +25,26 @@ header {
 }
 
 .navegacao nav a:hover {
-	color: #bb7cfe;
-	border-bottom: .07em solid #bb7cfe;
+	color: #733B27;
+	border-bottom: .07em solid #733B27;
 }
 
 .login-button {
-	background-color: white;
-  color: #bb7cfe;
-  font-size: 1.1em;
-  border: 2px solid #bb7cfe;
-  border-radius: 20px;
-  height: 40px;
-  width: 90px;
-  cursor: pointer;
+  	font-size: 1.1em;
+  	border-radius: 5px;
+  	height: 37px;
+  	width: 87px;
+  	cursor: pointer;
+  	background-color: #733B27;
+  	color: white;
+  	border: 2px solid transparent;
 }
 
 .login-button:hover {
-	background-color: #bb7cfe;
 	color: white;
+	background-color: #592A19;
 }
+
 
 .caixa {
 	position: relative;
@@ -56,7 +58,7 @@ header {
 }
 
 .titulo-principal {
-	color: #40160C;
+	color: #592A19;
 	font-weight: bold;
 	position: absolute;
 	top: 80px;
@@ -68,20 +70,18 @@ header {
 
 h1 {
   font-size: 55px;
-  color: #40160C;	
   text-shadow: 1px 1px 1px #40160C;
 
 }
 
 p {
 	font-size: 25px;
-  color: #40160C;	
 }
 
 .pesquisa {
 	position: absolute;
 	top: 25%;
-	left: 60%;
+	left: 65%;
 	font-size: 1em;
 }
 
@@ -90,21 +90,31 @@ p {
 	height: 30px;
 	float: left;
 	font-size: 1em;
+	border: 2px solid none;
 }
 
 .pesquisa button {
-	width: 80px;
+	width: 50px;
 	height: 36px;
-	font-size: 1em;
-	background-color: #bb7cfe;
-	color: white;
-  cursor: pointer;
-  border: 2px solid #bb7cfe;
+  	cursor: pointer;
+	/*background-color: white;*/
+  	font-size: 1.1em;
+  	/*height: 36.3px;
+  	width: 90px;*/
+  	/*background-color: #733B27;*/
+  	/*color: WHITE;*/
+  	/*border: 2px solid transparent;*/
 }
 
-.pesquisa button:hover {
-	background-color: #bb7cfe;
+/*.pesquisa button:hover {
+	background-color: #592A19;
 	color: white;
+}*/
+
+.pesquisa button img {
+	width: 30PX;
+	height: 30PX;
+	/*padding-right: 90px;*/
 }
 
 article {
@@ -120,6 +130,8 @@ article {
 .introducao {
 	text-align: center;
 	line-height: 2.3em;
+	background-color: #f0f0f0;
+	width: 100%;
 }
 
 .chuva-cafe{
@@ -131,7 +143,7 @@ article {
 
 h2 {
 	font-size: 2.5em;
-  color: #40160C;	
+  color: #592A19;	
   font-weight: bold;
   margin: 1.4em 0 .8em 0;
   padding-right: 65px;
@@ -140,18 +152,15 @@ h2 {
 
 .texto {
 	padding-right: 270px;
-}
-
-.divisoria {
-	margin: 60px 0 40px 0;
+	padding-bottom: 60px;
 }
 
 .titulos {
 	font-size: 2.5em;
-  color: #40160C;	
+  color: #592A19;	
   text-align: center;
-  font-weight: bold;
-  margin: 1.4em 0 .8em 0;
+ 	font-weight: bold;
+ 	margin: 1.4em 0 .8em 0;
 }
 
 .historia {
@@ -168,6 +177,7 @@ h2 {
 	margin: 35px 0 25px 0; 
 	font-weight: bold;
 	font-size: 2em;
+	color: #592A19;
 }
 
 .hitoria-videos {
@@ -179,7 +189,7 @@ h2 {
 .hitoria-videos li {
 	display: inline-block;
 	width: 450px;
-	/*Para ordernar os produtos pela parte de cima*/
+	/*Para ordernar os prodtos pela parte de cima*/
 	/*vertical-align: top;*/
 	margin: 30px auto;
 	padding: 0 50px; 
@@ -200,7 +210,7 @@ h2 {
 .trajetoria-cafecasa li {
 	display: inline-block;
 	margin: 0 auto;
-	padding: 10px 50px 50px 50px;
+	padding: 10px 50px 10px 50px;
 }
 
 .trajetoria-cafecasa img {
@@ -210,8 +220,18 @@ h2 {
 
 .produtos {
 	text-align: center;
-	background: linear-gradient(#FEFEFE, #EBECEA);
+	background: linear-gradient(#f0f0f0, #f0f0f0);
 	padding: 0 0 40px 0;
+	margin-top: 30px;
+}
+
+h4 {
+	font-size: 2.5em;
+  	color: #592A19;	
+  	text-align: center;
+ 	font-weight: bold;
+ 	margin: 1.4em 0 .8em 0;
+ 	padding-top: 50px;
 }
 
 .produtos img {
@@ -243,15 +263,15 @@ h2 {
 	width: 80px;
 	height: 30px;
 	font-size: 1em;
+
 }
 
 .produtos button:hover {
-	background: #bb7cfe;
-	color: white;
 	transition: 300ms;
 	cursor: pointer;
-	border: 1px solid transparent;
-	border-radius: 2px;
+	background-color: #733B27;
+  	color: WHITE;
+  	border: 2px solid transparent;
 }
 
 .produtos p {
@@ -261,7 +281,7 @@ h2 {
 
 h5 {
 	font-weight: bold;
-	color: #40160C;
+	color: #592A19;
 	font-size: 25px;
 	padding-left: 25px;
 	margin: 0 0 40px 0; 
@@ -273,8 +293,8 @@ h5 {
 	width: 49.5%;
 	padding: 0 0 30px 0;
 	float: left;
-	margin: 0 0 20px 0;
-	background: linear-gradient(#EBECEA, lightgray);
+	margin: 0 0 10px 0;
+	background: linear-gradient(#f0f0f0, #DDD4CB);
 }
 
 .user-review li {
@@ -317,13 +337,13 @@ h5 {
 	margin: 0 0;
 	padding: 0 0 110px 51.5%;
 	height: 257.969px;
-	background: linear-gradient(#EBECEA, lightgray);
+	background: linear-gradient(#f0f0f0, lightgray);
 }
 
 
 h6 {
 	font-weight: bold;
-	color: #40160C;
+	color: #592A19;
 	font-size: 25px;
 	/*padding-left: 100px;*/
 	margin: 0 0 40px 0;
@@ -344,17 +364,21 @@ fieldset {
 	color: white;
 	font-weight: bold;
 	font-size: 18px;
-	border: none;
 	border-radius: 5px;
 	cursor: pointer;
 	width: 40%;
 	margin: 10px 0 15px 0;
 	padding: 10px 0px;
+	background-color: #592A19;
+  color: #ffffff;
+  border: 2px solid transparent;
 }
 
 .enviar:hover {
 	transition: 300ms;
-	background-color: blue;
+	background-color: #40160C;
+  	color: WHITE;
+  	border: 2px solid transparent;
 }
 
 .com-avaliacao {
@@ -373,6 +397,7 @@ legend {
 .rodape {
 	background: gray;
 	padding: 30px 0 30px 0;
+	widht: 100%;
 }
 
 .rodape-principal {
